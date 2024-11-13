@@ -8,4 +8,5 @@ print("Hello World")
 
 print("Hotovo")
 
+print(Ze by konecne)
 
