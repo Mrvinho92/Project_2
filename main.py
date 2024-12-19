@@ -1,12 +1,23 @@
-print("Zaciname gitovat")
+import datetime
 
-list1 = [1, 2, 3, 4, 5]
+aktualni_cas = datetime.datetime.now()
 
-dictionary = {"one": 1}
+print("Ahoj na první lekci. Dneska máme", aktualni_cas.strftime("%d/%m/%Y"))
 
-print("Hello World")
+# Vyzkoušej si spustit tento zápis!
+jmeno = "Marek"
 
-print("Hotovo")
+if jmeno == "Marek":
+ print("Ahoj, Marku!")
+else:
+ print("Ahoj, vsem ostatnim!")
 
-print(Ze by konecne)
+ # Vyzkoušej si spustit tento zápis!
+jmeno = "Matous"
 
+if jmeno == "Marek":
+ print("Ahoj, Marku!")
+elif jmeno == "Lukas":
+ print("Ahoj, Lukasi!")
+else:
+ print("Ahoj, vsem ostatnim!")
